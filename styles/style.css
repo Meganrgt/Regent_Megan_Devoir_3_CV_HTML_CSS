@@ -44,6 +44,43 @@ footer {
      display: flex;
  }
 
+ /*ASIDE*/
+.star {
+    width: 15px;
+    height: auto;
+}
+.skill-info {
+    display: flex;
+}
+.language-info {
+    display: flex;
+}
+aside {
+    flex: 33% 0;
+}
+
+/*MAIN*/
+main {
+    flex: 67% 0;
+}
+
+#main-content {
+    display: flex;
+}
+.language-info > p {
+    flex: 1 0;
+}
+.language-level {
+    text-align: right;
+}
+.cv-line {
+    display: flex;
+    flex-flow: row wrap;
+    width: auto;
+}
+.cv-line > div {
+    flex: 50% 0;
+}
 
  /*FOOTER*/
 footer {
